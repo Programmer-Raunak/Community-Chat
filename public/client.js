@@ -1,4 +1,4 @@
-const socket = io("https://community-chat-eight.vercel.app")
+const socket = io()
 let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
